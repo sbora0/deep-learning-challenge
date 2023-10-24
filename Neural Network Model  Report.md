@@ -18,14 +18,14 @@ Below are the steps required:
 * Compiling, Training, and Evaluating the Model
   * I used 80 and 30 neurons for the first and second layer and 1 neuron for the output layer. The activation function used for the first 2 layers is "relu" and for the output layer is "sigmoid".
   ![Alt text](image.png)
-  * The model I used did not achieve the target model performance and the accuracy remained under 75%
-  ![Alt text](image-1-1.png)
+  * The model I used did not achieve the target model performance and the accuracy remained under 75%.
+  ![Alt text](image-1.png)
   * I used 3 different optimisation methods to increase the model's performance
-    * Used kerastuner to get the best model but accuracy for the best model remains below 75%
+    * Used kerastuner to get the best model but accuracy for the best model remains below 75%.
     ![Alt text](image-2.png)
-    * Added "NAME" Column back to the the dataset as used it as a feature by binning it and used kerastuner to get the best model with and accuracy of 75%
+    * Added "NAME" Column back to the the dataset as used it as a feature by binning it and used kerastuner to get the best model with and accuracy of 75%.
     ![Alt text](image-3.png)
-    * Used the dataset without "EIN" and "Name" Columns and updated layer 2 nodes to 40 and added a third layer with 16 nodes and used "relu" function for the 3 layers and "sigmoid" for the output layer. Also updated the epochs to 50 but the accuracy remained under 75%
+    * Used the dataset without "EIN" and "Name" Columns and updated layer 2 nodes to 40 and added a third layer with 16 nodes and used "relu" function for the 3 layers and "sigmoid" for the output layer. Also updated the epochs to 50 but the accuracy remained under 75%.
     ![Alt text](image-4.png)
 
 ## Summary
