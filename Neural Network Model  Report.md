@@ -19,7 +19,7 @@ Below are the steps required:
   * I used 80 and 30 neurons for the first and second layer and 1 neuron for the output layer. The activation function used for the first 2 layers is "relu" and for the output layer is "sigmoid".
   ![Alt text](image.png)
   * The model I used did not achieve the target model performance and the accuracy remained under 75%
-  ![Alt text](image-1.png)
+  ![Alt text](image-1-1.png)
   * I used 3 different optimisation methods to increase the model's performance
     * Used kerastuner to get the best model but accuracy for the best model remains below 75%
     ![Alt text](image-2.png)
